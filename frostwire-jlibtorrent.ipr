@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="frostwire-jlibtorrent:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/frostwire_jlibtorrent_jar</output-path>
+      <root id="archive" name="frostwire-jlibtorrent.jar">
+        <element id="module-output" name="frostwire-jlibtorrent" />
+      </root>
+    </artifact>
+  </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <resourceExtensions />
@@ -28,6 +36,22 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="A1B6637C8B81E1319BDEDF363758B361" />
+  <component name="InspectionProjectProfileManager">
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+        <inspection_tool class="CompareToUsesNonFinalVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="EqualsUsesNonFinalVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="HashCodeUsesNonFinalVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
+      </profile>
+    </profiles>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
+  </component>
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -178,4 +202,3 @@
     <mapping directory="" vcs="Git" />
   </component>
 </project>
-
